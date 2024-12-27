@@ -2,8 +2,8 @@ import tkinter as tk
 
 """
     Simple Word Counter with a Tkinter GUI in python, replicates the WC command in linux provided in the man pages by "wc"
+    To run, use the terminal command "python word_counter.py" make sure to have python3 installed and the module tkinter installed as well
 """
-
 
 class WordCounter:
     def __init__(self, screen_name="Main", base_name="WC", class_name="Word Counter"):
